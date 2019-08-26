@@ -8,7 +8,7 @@
 <html lang="zxx">
 
 <head>
-    <title>SZ Courier</title>
+    <title>SZ Courier Service</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta name="keywords" content="Shipment a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
