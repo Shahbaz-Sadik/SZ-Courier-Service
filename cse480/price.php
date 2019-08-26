@@ -32,6 +32,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 
 <body>
+
+<?php
+
+session_start();
+ if(!isset($_SESSION['email'])){
+        header('Location: index.php');
+
+    }
+    if(!isset($_SESSION['email'])){
+        header('Location: index.php');
+
+    }
+?>
+
+    
     <div class="mian-content inner-page">
         <div class="header-top-w3layouts">
             <div class="container">

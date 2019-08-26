@@ -43,7 +43,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <?php 
         session_start();
 
-        
+    if(!isset($_SESSION['email'])){
+        header('Location: index.php');
+
+    }
  
     if($_SESSION['type'] == 'Admin'){ 
        header('Location: admin.php');
